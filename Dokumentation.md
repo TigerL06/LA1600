@@ -43,6 +43,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
+![image](https://user-images.githubusercontent.com/110893121/237035294-9eb4c97d-55cd-4bf0-a78b-ff8f43e9d388.png)
 
 ✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
