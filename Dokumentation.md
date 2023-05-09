@@ -56,8 +56,8 @@ Use Case Diagramm:
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A     |09.05.2023 | Grigioni  | Erstellen der Seite  | 20'  |
-| 2.A     |       |           |              |               |
-| 3.A     |       |           |              | 2*45          |
+| 2.A     |       |           | Events erstellen   | 2*45            |
+| 3.A     |       |           | Events suchen     | 30'          |
 | 4.A     |       |           |              |               |
 | 5.A     |       |           |              |               |
 | 6.A     |       |           |              |               |
