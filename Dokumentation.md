@@ -38,6 +38,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | 4.1 |Die Homepage ist offen.              |Scrollen         |Die angezeigten Events sind dem Datum nach sortiert.               |
 |5.1  |Die Homepage ist offen.              |Man linksklickt auf eine der 4 Kategorien oben.         |Es werden nur noch Events dieser Kategorie angezeigt.                 |
 |6.1  |Die Homepage ist offen.              |Auf ein Event linksklick         |Es werden mehr Informationen zum Event angezeigt                   |
+|7.1  |Die Homepage ist offen.              |Auf ein Event linksklick         |Es werden mehr Informationen zum Event angezeigt                   |
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
