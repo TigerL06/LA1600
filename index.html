@@ -1,81 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Loli-Design Webseite</title>
+    <title>Professional Website with Text Over Pictures</title>
     <style>
       body {
-        background-color: #f9e4cf;
         font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        color: #333;
       }
       
-      #header {
-        background-color: #f8b4d9;
-        color: #fff;
+      header {
+        background-color: #fff;
         padding: 20px;
         text-align: center;
+        border-bottom: 1px solid #ddd;
       }
       
-      #navigation {
-        background-color: #f8b4d9;
-        padding: 10px;
+      #wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
       }
       
-      #navigation ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+      .box {
+        flex-basis: calc(50% - 20px);
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .box img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      .box .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.7);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+      
+      .box:hover .overlay {
+        opacity: 1;
+      }
+      
+      .box .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
-      }
-      
-      #navigation ul li {
-        display: inline-block;
-        margin: 0 10px;
-      }
-      
-      #navigation ul li a {
         color: #fff;
-        text-decoration: none;
+        font-size: 20px;
+        width: 80%;
       }
       
-      #content {
-        margin: 20px auto;
-        max-width: 800px;
-        text-align: center;
-      }
-      
-      #content img {
-        border-radius: 50%;
-        margin-bottom: 20px;
-        width: 200px;
-      }
-      
-      #footer {
-        background-color: #f8b4d9;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
+      @media screen and (max-width: 600px) {
+        .box {
+          flex-basis: 100%;
+        }
       }
     </style>
   </head>
   <body>
-    <div id="header">
-      <h1>Loli-Design Webseite</h1>
-    </div>
-    <div id="navigation">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Über uns</a></li>
-        <li><a href="#">Galerie</a></li>
-        <li><a href="#">Kontakt</a></li>
-      </ul>
-    </div>
-    <div id="content">
-      <img src="https://i.imgur.com/Xq5rC8I.jpg" alt="Loli-Bild">
-      <h2>Willkommen auf unserer Loli-Design Webseite!</h2>
-      <p>Wir sind eine Gruppe von Loli-Enthusiasten und teilen auf unserer Webseite unsere Begeisterung für Lolis mit der Welt. Schauen Sie sich unsere Galerie an oder kontaktieren Sie uns, wenn Sie mehr erfahren möchten.</p>
-    </div>
-    <div id="footer">
-      <p>&copy; 2023 Loli-Design Webseite</p>
-    </div>
-  </body>
-</html>
+    <header>
+      <h1>Professional Website with Text Over Pictures</h1>
+    </header>
+    <div id="wrapper">
+      <div class="box">
+        <img src="https://via.placeholder.com/800x600.png?text=Image+1" alt="Image 1">
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Heading 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius tincidunt augue, et commodo tellus bibendum eget. In hac habitasse platea dictumst.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="https://via.placeholder.com/800x600.png?text=Image+2" alt="Image 2">
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Heading 2</h2>
+          <p>Phasellus nec neque eu sem suscipit commodo id vitae nisl. Fusce vel odio at augue facilisis lacinia. Sed feugiat, sapien eget faucibus pulvinar, neque arcu hendrerit eros, a lacinia ipsum orci non est.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="https://via.placeholder.com/800x600.png?text=Image+3" alt="Image 3">
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Heading 3</h2>
+          <p>Pellentesque nec
