@@ -59,8 +59,8 @@ Use Case Diagramm:
 | 1.A     |09.05.2023 | Grigioni  | Man soll eine Webseite erstellen, als Prototyp  | 20  |
 | 3.A     | 16.05.2023      |     Koch      | Man muss Events suchen, die wir in unsere Webseite tuen können.   | 45           |
 | 3.B   |   16.05.2023       |   Hitz        | Die Events als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)    | 45         |
-| 3.C  |     16.05.2023     |    Grigioni       |Die Events werden als Liste dargestellt.     | 45         |
-| 4.A    |   16.05.2023       |   Koch        | Die Events werden nach ihrem Datum sortiert.        |     2*45         |
+| 3.C  |     16.05.2023     |    Koch      |Die Events werden als Liste dargestellt.     | 45         |
+| 4.A    |   16.05.2023       |   Grigioni     | Die Events werden nach ihrem Datum sortiert.        |     2*45         |
 | 5.A     |   16.05.2023       |    Hitz       |  Vier verschiedene Arten von Veranstalltungen(Konzerte Theateraufführungen, Ausstellungen und Festivals) als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)  |      45         |
 | 5.B    |    23.05.2023      |     Grigioni      |  Wenn man auf eine Veranstalltung klickt, müssen nur noch diese Events von dieser Art von Veranstalltung angezeigt werden.         |      2*45        |
 | 6.A     |   23.05.2023     |     Hitz      |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
