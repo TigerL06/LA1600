@@ -67,7 +67,7 @@ Use Case Diagramm:
 | 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen und ein Bild  |    2*45          |
 | 7.A     |   30.05.2023    |     Hitz      |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
 
-Total: 645
+Total: 645 Minuten
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
