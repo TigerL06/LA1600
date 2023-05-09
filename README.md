@@ -1,3 +1,3 @@
 # LA1600
 
-Hier ist mein [Link](Dokumentation.md)
+Hier ist die [Dokumentation](Dokumentation.md)
