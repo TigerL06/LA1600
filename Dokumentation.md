@@ -20,12 +20,12 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |        muss         |   funktional   |Als ein User möchte ich eine Seite, damit ich überhaupt was machen kann. |
-| 2  |         muss        |    rand  |          Als ein Creator möchte ich das die Seite mit Css gestalltet wird, damit ich die Seite übersichtlich aussieht.                         |
-| 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Teateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
-| 4  |         muss        |    funktional  |          Als ein User möchte ich dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleich sehe.                         |
-| 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerte, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann die mich intressieren.  |
-| 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt ein Pop-up aufgeht, dass die einzelnen Informationen plus ein Bild zu diesem Event zeigt, damit ich mich besser über dieses Event informieren kann. |
-| 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups platz haben. |
+| 2  |         muss        |    rand  |          Als ein Creator möchte ich das die Seite mit CSS gestaltet wird, damit die Seite übersichtlich aussieht.                         |
+| 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Theateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
+| 4  |         muss        |    funktional  |          Als ein User möchte ich, dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleich sehe.                         |
+| 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerten, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann die mich interessieren.  |
+| 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt, ein Pop-up aufgeht, dass die einzelnen Informationen plus ein Bild zu diesem Event zeigt, damit ich mich besser über dieses Event informieren kann. |
+| 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups Platz haben. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
