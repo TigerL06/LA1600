@@ -13,7 +13,7 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen einfachen und schnellen Überblick über anstehende kulturelle Ereignisse wie Konzerte, Theateraufführungen, Ausstellungen und Festivals in ihrer Stadt oder Region bietet.
 
 ### 1.2 User Stories
 
