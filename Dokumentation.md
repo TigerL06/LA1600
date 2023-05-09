@@ -20,7 +20,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |        muss         |   funktional   |Als ein User möchte ich eine Seite, damit ich überhaupt was machen kann. |
-| 2  |         muss        |    rand  |          Als ein Creator möchte ich das die Seite mit Css gestalltet wird, damit ich die Seite überhsichtlich aussieht.                         |
+| 2  |         muss        |    rand  |          Als ein Creator möchte ich das die Seite mit Css gestalltet wird, damit ich die Seite übersichtlich aussieht.                         |
 | 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Teateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
 | 4  |         muss        |    funktional  |          Als ein User möchte ich dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleich sehe.                         |
 | 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerte, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann die mich intressieren.  |
