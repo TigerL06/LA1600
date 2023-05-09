@@ -75,13 +75,13 @@ Total: 645 Minuten
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und Bilder anzuzeigen, wenn ein Benutzer auf ein bestimmtes Ereignis auf der Seite klickt.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  |   09.05.2023    |   Grigioni     |        20    |    45               |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
