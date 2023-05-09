@@ -50,8 +50,13 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A     |09.05.2023 | Grigioni  | Erstellen der Seite  | 20'  |
+| 2.A     |       |           |              |               |
+| 3.A     |       |           |              | 2*45          |
+| 4.A     |       |           |              |               |
+| 5.A     |       |           |              |               |
+| 6.A     |       |           |              |               |
+| 7.A     |       |           |              |               |
 
 Total: 
 
