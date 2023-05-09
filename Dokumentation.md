@@ -5,7 +5,7 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|    90.05.23   | 0.0.1   | Heute haben wir in der Dokumentation gearbeitet (1-3) und haben den ersten Prototyp fertiggestellt. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -39,7 +39,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 |5.1  |Die Homepage ist offen.              |Man linksklickt auf eine der 4 Kategorien oben.         |Es werden nur noch Events dieser Kategorie angezeigt.                 |
 |6.1  |Die Homepage ist offen.              |Auf ein Event linksklick         |Es werden mehr Informationen zum Event angezeigt                   |
 |7.1  |Die Homepage ist offen.              |Auf ein Event linksklick         |Es werden mehr Informationen zum Event angezeigt                   |
-
+|7.1  |Die Homepage ist offen.              |Auf ein Event ist geklickt worden     |Die Liste verschiebt sich nach links und wird kleiner.             |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -57,17 +57,17 @@ Use Case Diagramm:
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A     |09.05.2023 | Grigioni  | Man soll eine Webseite erstellen, als Prototyp  | 20  |
-| 3.A     |       |           | Man muss Events suchen, die wir in unsere Webseite tuen können.   | 45           |
-| 3.B   |       |           | Die Events als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)    | 45         |
-| 3.C  |       |           |Die Events werden als Liste dargestellt.     | 45         |
-| 4.A    |       |           | Die Events werden nach ihrem Datum sortiert.        |     2*45         |
-| 5.A     |       |           |  Vier verschiedene Arten von Veranstalltungen(Konzerte Theateraufführungen, Ausstellungen und Festivals) als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)  |      45         |
-| 5.B    |       |           |  Wenn man auf eine Veranstalltung klickt, müssen nur noch diese Events, von dieser Art von Veranstalltung, angezeigt werden.         |      2*45        |
-| 6.A     |       |           |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
-| 6.B    |       |           |        Wenn man in einem Pop-up stehen die wichtigsten Informationen und ein Bild  |    2*45          |
-| 7.A     |       |           |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
+| 3.A     | 16.05.2023      |     Koch      | Man muss Events suchen, die wir in unsere Webseite tuen können.   | 45           |
+| 3.B   |   16.05.2023       |   Hitz        | Die Events als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)    | 45         |
+| 3.C  |     16.05.2023     |    Grigioni       |Die Events werden als Liste dargestellt.     | 45         |
+| 4.A    |   16.05.2023       |   Koch        | Die Events werden nach ihrem Datum sortiert.        |     2*45         |
+| 5.A     |   16.05.2023       |    Hitz       |  Vier verschiedene Arten von Veranstalltungen(Konzerte Theateraufführungen, Ausstellungen und Festivals) als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)  |      45         |
+| 5.B    |    23.05.2023      |     Grigioni      |  Wenn man auf eine Veranstalltung klickt, müssen nur noch diese Events von dieser Art von Veranstalltung angezeigt werden.         |      2*45        |
+| 6.A     |   23.05.2023     |     Hitz      |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
+| 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen und ein Bild  |    2*45          |
+| 7.A     |   30.05.2023    |     Hitz      |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
 
-Total: 
+Total: 645
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
