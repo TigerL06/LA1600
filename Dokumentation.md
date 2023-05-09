@@ -65,7 +65,7 @@ Use Case Diagramm:
 | 5.B    |    23.05.2023      |     Grigioni      |  Wenn man auf eine Veranstalltung klickt, müssen nur noch diese Events von dieser Art von Veranstalltung angezeigt werden.         |      2*45        |
 | 6.A     |   23.05.2023     |     Hitz      |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
 | 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen und ein Bild  |    2*45          |
-| 7.A     |   30.05.2023    |     Hitz, Koch     |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
+| 7.A     |   30.05.2023    |     Hitz, Koch, Grigioni     |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
 
 Total: 645 Minuten
 
