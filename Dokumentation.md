@@ -20,13 +20,14 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |        muss         |   funktional   |Als ein User möchte ich eine Seite, damit ich überhaupt was machen kann. |
-| 2  |         muss        |    rand  |          Als ein Creator möchte, ich das die Seite mit Css gestalltet wird, damit ich die Seite überhsichtlich aussieht.                         |
-| 3  |         muss        |    funktional  |          Als ein User möchte, ich das die Seite Inhalte über Kultur hat, damit ich etwas lesen kann.                         |
-| 4  |         muss        |    funktional  |          Als ein User möchte, ich das die Seite mit verschiedene Untergruppen über kuturelle Ereignisse hat, damit ich überblick über kommende Ereignisse habe.                         |
-| 5  |         muss        |    funktional  |          Als ein User möchte, dass die Untergruppen Theman aufzeigen, damit ich mich schnell zurecht finde.                         |
+| 2  |         muss        |    rand  |          Als ein Creator möchte ich das die Seite mit Css gestalltet wird, damit ich die Seite überhsichtlich aussieht.                         |
+| 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Teateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
+| 4  |         muss        |    funktional  |          Als ein User möchte ich dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleich sehe.                         |
+| 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerte, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann die mich intressieren.  |
 
-| 6 |         muss        |    funktional  |          Als ein User möchte, ich das bei den einzellnen Ereignissen die Daten stehen, damit ich weiss wann was ist.                         |
+| 6 |         muss        |    funktional  |          Als ein User möchte ich, dass wenn man auf das Event klickt ein Pop-up aufgeht, dass die einzelnen Informationen plus ein Bild zu diesem Event zeigt, damit ich mich besser über dieses Event informieren kann. |
 
+| 7 |         kann      |    funktional  |          Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups platz haben. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
