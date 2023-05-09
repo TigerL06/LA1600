@@ -55,13 +55,16 @@ Use Case Diagramm:
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A     |09.05.2023 | Grigioni  | Erstellen der Seite  | 20'  |
-| 2.A     |       |           | Events erstellen   | 2*45            |
-| 3.A     |       |           | Events suchen     | 30'          |
-| 4.A     |       |           |              |               |
-| 5.A     |       |           |              |               |
-| 6.A     |       |           |              |               |
-| 7.A     |       |           |              |               |
+| 1.A     |09.05.2023 | Grigioni  | Man soll eine Webseite erstellen, als Prototyp  | 20  |
+| 3.A     |       |           | Man muss Events suchen, die wir in unsere Webseite tuen können.   | 45           |
+| 3.B   |       |           | Die Events als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)    | 45         |
+| 3.C  |       |           |Die Events werden als Liste dargestellt.     | 45         |
+| 4.A    |       |           | Die Events werden nach ihrem Datum sortiert.        |     2*45         |
+| 5.A     |       |           |  Vier verschiedene Arten von Veranstalltungen(Konzerte Theateraufführungen, Ausstellungen und Festivals) als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)  |      45         |
+| 5.B    |       |           |  Wenn man auf eine Veranstalltung klickt, müssen nur noch diese Events, von dieser Art von Veranstalltung, angezeigt werden.         |      2*45        |
+| 6.A     |       |           |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
+| 6.B    |       |           |        Wenn man in einem Pop-up stehen die wichtigsten Informationen und ein Bild  |    2*45          |
+| 7.A     |       |           |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
 
 Total: 
 
