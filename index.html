@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Filterable Text Boxes</title>
-	<style>
-		/* CSS styles */
-
-	</style>
+    <title>Hallo</title>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-	<div class="container">
-		<h1>Filterable Text Boxes</h1>
-		<div class="filter-buttons">
-			<button class="filter-button active" data-filter="category1">Category 1</button>
-			<button class="filter-button" data-filter="category2">Category 2</button>
-			<button class="filter-button" data-filter="category3">Category 3</button>
-			<button class="filter-button" data-filter="category4">Category 4</button>
-		</div>
-		<div class="text-boxes">
-			<div class="text-box" data-category="category1">
-				<h2>Text Box 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lacus quis augue</p>
-			</div>
-			<div class="text-box" data-category="category2">
-				<h2>Text Box 2</h2>
-				<p>Phasellus in libero id purus feugiat vestibulum</p>
-			</div>
-			<div class="text-box" data-category="category3">
-				<h2>Text Box 3</h2>
-				<p>Nunc quis tincidunt lacus. Morbi a lectus diam</p>
-			</div>
-			<div class="text-box" data-category="category4">
-				<h2>Text Box 4</h2>
-				<p>Aliquam erat volutpat. Suspendisse maximus ligula magna</p>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <h1>Filterable Text Boxes</h1>
+        <div class="filter-buttons">
+            <button class="filter-button active" data-filter="category1">Category 1</button>
+            <button class="filter-button" data-filter="category2">Category 2</button>
+            <button class="filter-button" data-filter="category3">Category 3</button>
+            <button class="filter-button" data-filter="category4">Category 4</button>
+        </div>
 
-	<script>
-		// JavaScript code
+        <div class="container">
+            <h1>Filterable Text Boxes</h1>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-button active" data-filter="category1">Category 1</button>
+            <button class="filter-button" data-filter="category2">Category 2</button>
+            <button class="filter-button" data-filter="category3">Category 3</button>
+            <button class="filter-button" data-filter="category4">Category 4</button>
+        </div>
+        <div class="text-boxes">
+            <div class="text-box" data-category="category1">
+                <h2>Text Box 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lacus quis augue</p>
 
-		const filterButtons = document.querySelectorAll('.filter-button');
-		const textBoxes = document.querySelectorAll('.text-box');
+                <ul>
+                    <li><a href="#festival1">Festival 1</a></li>
+                    <li><a href="#festival2">Festival 2</a></li>
+                    <li><a href="#festival3">Festival 3</a></li>
+                </ul>
 
-		filterButtons.forEach(button => {
-			button.addEventListener('click', () => {
-				// Remove active class from all buttons
-				filterButtons.forEach(btn => btn.classList.remove('active'));
-				// Add active class to the clicked button
-				button.classList.add('active');
-				// Get the category to filter
-				const category = button.dataset.filter;
-				// Show or hide text boxes based on the category
-				textBoxes.forEach(textBox => {
-					if (category === 'all' || category === textBox.dataset.category) {
-						textBox.style.display = 'block';
-					} else {
-						textBox.style.display = 'none';
-					}
-				});
-			});
-		});
-	</script>
+                <div class="info-box" id="festival1">
+                    <h2>Festival 1</h2>
+                    <p>Hier sind die wichtigsten Infos für Festival 1.</p>
+                </div>
+
+                <div class="info-box" id="festival2">
+                    <h2>Festival 2</h2>
+                    <p>Hier sind die wichtigsten Infos für Festival 2.</p>
+                </div>
+
+                <div class="info-box" id="festival3">
+                    <h2>Festival 3</h2>
+                    <p>Hier sind die wichtigsten Infos für Festival 3.</p>
+                </div>
 </body>
+
 </html>
