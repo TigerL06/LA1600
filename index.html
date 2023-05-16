@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Festivalinfo in der Schweiz</title>
-    <meta charset="UTF-8">
     <link href="styles.css" rel="stylesheet" type="text/css">
+	<title>Filterable Text Boxes</title>
+	<style>
+		/* CSS styles */
+
+	</style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Filterable Text Boxes</h1>
-        <div class="filter-buttons">
-            <button class="filter-button active" data-filter="category1">Alle Festivals</button>
-            <button class="filter-button" data-filter="category2">Category 2</button>
-            <button class="filter-button" data-filter="category3">Category 3</button>
-            <button class="filter-button" data-filter="category4">Category 4</button>
-             <button class="filter-button" data-filter="category4">Category 5</button>
-        </div>
+	<div class="container">
+		<h1>Filterable Text Boxes</h1>
+		<div class="filter-buttons">
+			<button class="filter-button active" data-filter="category1">Category 1</button>
+			<button class="filter-button" data-filter="category2">Category 2</button>
+			<button class="filter-button" data-filter="category3">Category 3</button>
+			<button class="filter-button" data-filter="category4">Category 4</button>
+		</div>
+		<div class="text-boxes">
+			<div class="text-box" data-category="category1">
+				<h2>Text Box 1</h2>
+				<p>EVENT 1</p>
+			</div>
+			<div class="text-box" data-category="category2">
+				<h2>Text Box 2</h2>
+				<p>EVENT 2</p>
+			</div>
+			<div class="text-box" data-category="category3">
+				<h2>Text Box 3</h2>
+				<p>EVENT 3</p>
+			</div>
+			<div class="text-box" data-category="category4">
+				<h2>Text Box 4</h2>
+				<p>EVENT 4</p>
+			</div>
+		</div>
+	</div>
 
-        <div class="text-boxes">
-            <div class="text-box" data-category="category1">
-                <h2>Festivals</h2>
-                <p>Alle Festivals in der Schweiz, mit den wichtigsten Infos.</p>
+	<script>
+		// JavaScript code
 
-                <ul>
-                    <li><a href="#festival1">Festival 1</a></li>
-                    <li><a href="#festival2">Festival 2</a></li>
-                    <li><a href="#festival3">Festival 3</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+		const filterButtons = document.querySelectorAll('.filter-button');
+		const textBoxes = document.querySelectorAll('.text-box');
 
+		filterButtons.forEach(button => {
+			button.addEventListener('click', () => {
+				// Remove active class from all buttons
+				filterButtons.forEach(btn => btn.classList.remove('active'));
+				// Add active class to the clicked button
+				button.classList.add('active');
+				// Get the category to filter
+				const category = button.dataset.filter;
+				// Show or hide text boxes based on the category
+				textBoxes.forEach(textBox => {
+					if (category === 'all' || category === textBox.dataset.category) {
+						textBox.style.display = 'block';
+					} else {
+						textBox.style.display = 'none';
+					}
+				});
+			});
+		});
+	</script>
 </body>
-
 </html>
