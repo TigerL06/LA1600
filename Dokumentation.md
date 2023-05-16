@@ -5,8 +5,8 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|    90.05.23   | 0.0.1   | Heute haben wir in der Dokumentation gearbeitet (1-3) und haben den ersten Prototyp fertiggestellt. |
-|       | ...     |                                                              |
+|    09.05.23   | 0.0.1   | Heute haben wir in der Dokumentation gearbeitet (1-3) und haben den ersten Prototyp fertiggestellt. |
+|    16.05.23   | 0.1.1   |   Heute haben wir mit unseren Arbeitspacketen angefangen.                                                           |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -82,8 +82,10 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |   09.05.2023    |   Grigioni     |        20    |    45               |
-| ...  |       |           |               |                   |
-
+| 3.A |     16.05.2023    |    Hitz       |         45      |          3*45         |
+| 3.B |    16.05.2023     |   Koch        |        45       |          45         |
+| 3.C |    16.05.2023     |   Grigioni      |       45        |      45             |
+| 5.B  |  16.05.2023    |  Koch, Grigioni|        2*45    |    2*45           |
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
