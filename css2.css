@@ -102,3 +102,21 @@ h1 {
 .info-box:target {
     display: block;
 }
+
+a {
+    color: #333;
+    /* ändert die Farbe des Links */
+    text-decoration: none;
+    /* entfernt die Unterstreichung */
+    border-bottom: 1px solid #333;
+    /* fügt eine unterbrochene Linie hinzu */
+    padding-bottom: 2px;
+    /* fügt Platz unter dem Link hinzu */
+}
+
+a:hover {
+    color: #666;
+    /* ändert die Farbe des Links bei Hover */
+    border-bottom: 1px solid #666;
+    /* fügt eine unterbrochene Linie hinzu bei Hover */
+}
