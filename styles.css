@@ -54,7 +54,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.Festivals {
+.text-box {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -63,26 +63,26 @@ h1 {
     transition: height 0.2s ease;
 }
 
-.Festivals h2 {
+.text-box h2 {
     margin-top: 0;
     font-size: 24px;
     color: #333;
 }
 
-.Festivals p {
+.text-box p {
     margin: 0;
     font-size: 16px;
     color: #666;
 }
 
-.Festivals a {
+.text-box a {
     color: #333;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.Festivals a:hover {
+.text-box a:hover {
     color: #555;
 }
 
