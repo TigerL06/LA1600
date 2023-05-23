@@ -7,7 +7,7 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 | ----- | ------- | ------------------------------------------------------------ |
 |    09.05.23   | 0.0.1   | Heute haben wir in der Dokumentation gearbeitet (1-3) und haben den ersten Prototyp fertiggestellt. |
 |    16.05.23   | 0.1.1   |   Heute haben wir mit unseren Arbeitspacketen angefangen.                                                           |
-|       | 1.0.0   |                                                              |
+|   23.05.2023    | 1.0.0   |              Heute haben wir an den Arbeitspacketen weitergearbeitet.                                                |
 
 ## 1 Informieren
 
@@ -24,7 +24,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Theateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
 | 4  |         muss        |    funktional  |          Als ein User möchte ich, dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleichsehe.                         |
 | 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerten, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann, die mich interessieren.  |
-| 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt, ein Pop-up aufgeht, dass die einzelnen Informationen plus ein Bild zu diesem Event zeigen, damit ich mich besser über dieses Event informieren kann. |
+| 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt, ein Pop-up aufgeht, dass die einzelnen Informationen zu diesem Event zeigen, damit ich mich besser über dieses Event informieren kann. |
 | 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups Platz haben. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
@@ -64,7 +64,7 @@ Use Case Diagramm:
 | 5.A     |   16.05.2023       |    Hitz       |  Vier verschiedene Arten von Veranstalltungen(Konzerte Theateraufführungen, Ausstellungen und Festivals) als Bouton(oder änliches) einfügen. (Damit man auf sie klicken kann und etwas passieren kann)  |      45         |
 | 5.B    |    23.05.2023      |     Grigioni      |  Wenn man auf eine Veranstalltung klickt, müssen nur noch diese Events von dieser Art von Veranstalltung angezeigt werden.         |      2*45        |
 | 6.A     |   23.05.2023     |     Hitz      |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
-| 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen und ein Bild  |    2*45          |
+| 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen |    2*45          |
 | 7.A     |   30.05.2023    |     Hitz, Koch, Grigioni     |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
 
 Total: 645 Minuten
@@ -86,6 +86,11 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | 3.B |    16.05.2023     |   Koch        |        45       |          45         |
 | 3.C |    16.05.2023     |   Grigioni      |       45        |      45             |
 | 5.B  |  16.05.2023    |  Koch, Grigioni|        2*45    |    2*45           |
+| 5.A  |  23.05.2023    | Hitz|        45    |    2*45           |
+| 5.B  |  23.05.2023    |  Grigioni, Koch|        2*45    |    2*45           |
+| 6.A  |  23.05.2023    |  Koch|        2*45    |    2*45           |
+| 6.B    |    23.05.2023    |     Hitz    |     2*45          |    2*45           |
+| 4.A    |    23.05.2023    |     Grigioni   |     2*45          |    2*45           |
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
