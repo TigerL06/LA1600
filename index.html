@@ -9,26 +9,66 @@
 
 <body>
     <div class="container">
-        <h1>Festivalsinfos</h1>
+        <h1>Festivalinfo in der Schweiz</h1>
         <div class="filter-buttons">
-            <button class="filter-button active" data-filter="category1">Alle Festivals</button>
-            <button class="filter-button" data-filter="category2">Musik</button>
-            <button class="filter-button" data-filter="category3">Kultur</button>
-            <button class="filter-button" data-filter="category4">Film</button>
-             <button class="filter-button" data-filter="category5">Sonstiges</button>
+            <button class="filter-button" data-filter="*" tabindex="-1">Alle Festivals</button>
+            <button class="filter-button" data-filter="Musik" tabindex="-1">Musik</button>
+            <button class="filter-button" data-filter="Kultur" tabindex="-1">Kultur</button>
+            <button class="filter-button" data-filter="Film" tabindex="-1">Film</button>
+            <button class="filter-button" data-filter="Sonstiges" tabindex="-1">Sonstiges</button>
         </div>
 
         <div class="text-boxes">
-            <div class="text-box" data-category="category1">
+            <div class="text-box" data-category="all">
                 <h2>Festivals</h2>
-                <p>Alle Festivals in der Schweiz, mit den wichtigsten Infos.</p>
-
+                <p>Festivals in der Schweiz, mit den wichtigsten Infos.</p>
                 <ul>
-                    <li><a href="#festival1" class="festival-Musik">Eidgenössisches Volksmusikfest</a></li>
-                    <li><a href="#festival2" class="festival-Film">Zürich Film Festival</a></li>
-                    <li><a href="#festival3" class="festival-Musik">Swiss Rock&Metal Festival</a></li>
-                     <li><a href="#festival3" class="festival-Kultur">Bergbierfestivals</a></li>
-                    <li><a href="#festival3" class="festival-Sonstiges">Montreux Comedy Festival (Humorfestival)</a></li>
+                    <li>
+                        <div class="festival-Kultur">
+                            <div class="festival-title">Papa Moll-Fest</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Bad Zurzach<br> Datum: 17. September 2023<br> So
+                            10:00-17:00</div>
+                    </li>
+                    <li>
+                        <div class="festival-Musik">
+                            <div class="festival-title">Eidgenössisches Volksmusikfest</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Bellinzona<br>Datum: 21-24. September 2023<br>So, Do, Fr,
+                            Sa 15:00</div>
+                    </li>
+                    <li>
+                        <div class="festival-Musik">
+                            <div class="festival-title">Internationales Orgelfest Freiburg</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Freiburg <br> Datum: 21.-25.September 2023</div>
+                    </li>
+                    <li>
+                        <div class="festival-Film">
+                            <div class="festival-title">Zürich Film Festival</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Zürich <br>Datum: 28. September-08.Oktober 2023 <br>So,
+                            Mi, Do, Fr, Sa 09:00</div>
+                    </li>
+                    <li>
+                        <div class="festival-Musik">
+                            <div class="festival-title">Swiss Rock&Metal Festival</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Amriswil <br>Datum: 07.Oktober 2023 <br>Sa 14:00</div>
+                    </li>
+                    <li>
+                        <div class="festival-Kultur">
+                            <div class="festival-title">Bergbierfestivals</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Ramosch <br>Datum: 21.-22. Oktober 2023 <br>So, Sa
+                            10:00-01:00</div>
+                    </li>
+                    <li>
+                        <div class="festival-Sonstiges">
+                            <div class="festival-title">Montreux Comedy Festival (Humorfestival)</div>
+                        </div>
+                        <div class="additional-info-box">Ort: Montreux <br> Datum: 08.-18.November 2023</div>
+                    </li>
                 </ul>
             </div>
         </div>

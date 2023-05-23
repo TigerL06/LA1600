@@ -58,7 +58,7 @@ h1 {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     transition: height 0.2s ease;
 }
@@ -103,20 +103,61 @@ h1 {
     display: block;
 }
 
-a {
-    color: #333;
-    /* ändert die Farbe des Links */
-    text-decoration: none;
-    /* entfernt die Unterstreichung */
-    border-bottom: 1px solid #333;
-    /* fügt eine unterbrochene Linie hinzu */
-    padding-bottom: 2px;
-    /* fügt Platz unter dem Link hinzu */
+button[data-filter="*"]:focus~div:not([class*="*"]) {
+    display: none;
 }
 
-a:hover {
-    color: #666;
-    /* ändert die Farbe des Links bei Hover */
-    border-bottom: 1px solid #666;
-    /* fügt eine unterbrochene Linie hinzu bei Hover */
+button[data-filter="Musik"]:focus~div:not([class*="festival-Musik"]) {
+    display: none;
+}
+
+button[data-filter="Kultur"]:focus~div:not([class*="festival-Kultur"]) {
+    display: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    margin-right: 10px;
+}
+
+.text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+}
+
+.festival-title {
+    font-weight: bold;
+}
+
+.festival-info {
+    display: none;
+}
+
+.additional-info-box {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+li:hover .festival-info {
+    display: block;
+}
+
+li:hover .additional-info-box {
+    display: block;
 }
