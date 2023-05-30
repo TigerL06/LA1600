@@ -170,3 +170,33 @@ li:hover .additional-info-box {
 #Sonstiges-filter:checked~div ul li.festival-Sonstiges {
     display: block;
 }
+
+.text-box-darkmode {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#Musik-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#Kultur-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#Film-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#Sonstiges-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
