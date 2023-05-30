@@ -99,22 +99,6 @@ h1 {
     margin-top: 10px;
 }
 
-.info-box:target {
-    display: block;
-}
-
-button[data-filter="*"]:focus~div:not([class*="*"]) {
-    display: none;
-}
-
-button[data-filter="Musik"]:focus~div:not([class*="festival-Musik"]) {
-    display: none;
-}
-
-button[data-filter="Kultur"]:focus~div:not([class*="festival-Kultur"]) {
-    display: none;
-}
-
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -159,5 +143,30 @@ li:hover .festival-info {
 }
 
 li:hover .additional-info-box {
+    display: block;
+}
+
+
+.festival-Musik,
+.festival-Kultur,
+.festival-Film,
+.festival-Sonstiges {
+    display: none;
+}
+
+
+#Musik-filter:checked~div ul li.festival-Musik {
+    display: block;
+}
+
+#Kultur-filter:checked~div ul li.festival-Kultur {
+    display: block;
+}
+
+#Film-filter:checked~div ul li.festival-Film {
+    display: block;
+}
+
+#Sonstiges-filter:checked~div ul li.festival-Sonstiges {
     display: block;
 }
