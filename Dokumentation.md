@@ -20,12 +20,15 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |        muss         |   funktional   |Als ein User möchte ich eine Seite, damit ich überhaupt was machen kann. |
-| 2  |         muss        |    rand  |          Als ein Creator möchte ich das die Seite mit CSS gestaltet wird, damit die Seite übersichtlich aussieht.                         |
+| 2  |         muss        |    rand  |          Als ein Creator möchte ich, dass die Seite mit CSS gestaltet wird, damit die Seite übersichtlich aussieht.                         |
 | 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Theateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
 | 4  |         muss        |    funktional  |          Als ein User möchte ich, dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleichsehe.                         |
 | 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerten, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann, die mich interessieren.  |
 | 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt, ein Pop-up aufgeht, dass die einzelnen Informationen zu diesem Event zeigen, damit ich mich besser über dieses Event informieren kann. |
 | 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups Platz haben. |
+| 8 |         muss      |    funktional  |  Als ein Creator möchte ich, dass wenn es ein Darkmode gibt, damit ich die Seite selber gestallten kann. |
+| 9 |         muss      |    funktional  |  Als ein Creator möchte ich, dass es Bilder in den Pop-ups hat und sie die richtige Grösse haben, damit ich die Seite selber gestallten kann. |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -37,9 +40,11 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 |3.1  |Die Homepage ist offen.              |Scrollen         |Es zeigt viele verschiedene Events an.                   |
 | 4.1 |Die Homepage ist offen.              |Scrollen         |Die angezeigten Events sind dem Datum nach sortiert.               |
 |5.1  |Die Homepage ist offen.              |Man linksklickt auf eine der 4 Kategorien oben.         |Es werden nur noch Events dieser Kategorie angezeigt.                 |
-|6.1  |Die Homepage ist offen.              |Auf ein Event linksklick         |Es werden mehr Informationen zum Event angezeigt                   |
-|7.1  |Die Homepage ist offen.              |Auf ein Event linksklick         |Es werden mehr Informationen zum Event angezeigt                   |
-|7.1  |Die Homepage ist offen.              |Auf ein Event ist geklickt worden     |Die Liste verschiebt sich nach links und wird kleiner.             |
+|6.1  |Die Homepage ist offen.              |Über ein Event hovern        |Es geht ein Pop-up auf               |
+|7.1  |Das Pop-up ist offen.              |Über ein Event hovern      |Es werden mehr Informationen zum Event angezeigt                   |
+|7.2  |Die Homepage ist offen.              |Auf ein Event ist geklickt worden     |Die Liste verschiebt sich nach links und wird kleiner.             |
+|8.1  |Die Homepage ist offen.              |Man Clickt auf die Darkmode-Checkbox    |Die Seite bekommt ein schwarzes Design           |
+|9.1  |Die Homepage ist offen.              |Man hovert über ein Event   | Ein Pop-up geht auf mit wichtigen Infos und einem Bild mit einer richtigen Grösse.          |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -66,6 +71,9 @@ Use Case Diagramm:
 | 6.A     |   23.05.2023     |     Hitz      |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
 | 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen |    2*45          |
 | 7.A     |   30.05.2023    |     Hitz, Koch, Grigioni     |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
+| 8.A     |   06.06.2023     |     Hitz      |        Wenn man auf die Checkbox Darkmode klickt werden die Sachen schwarz die weiss sind und die Sachen weiss die schwarz sind.  |     2*45          |
+| 9.A    |    06.0.2023    |      Koch     |       Bilder in die Pop-ups einfügen und sie so formatieren, dass sie eine gute Grösse haben.|    2*45          |
+
 
 Total: 645 Minuten
 
@@ -91,7 +99,7 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | 6.A  |  23.05.2023    |  Koch|        2*45    |    2*45           |
 | 6.B    |    23.05.2023    |     Hitz    |     2*45          |    2*45           |
 | 4.A    |    23.05.2023    |     Grigioni   |     2*45          |    2*45           |
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
