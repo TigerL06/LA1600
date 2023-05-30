@@ -72,8 +72,8 @@ Use Case Diagramm:
 | 6.A     |   23.05.2023     |     Hitz      |        Wenn man auf ein Event klickt entsteht ein Pop-up.   |     2*45          |
 | 6.B    |    23.05.2023    |      Koch     |        In einem Pop-up stehen die wichtigsten Informationen |    2*45          |
 | 7.A     |   30.05.2023    |     Hitz, Koch, Grigioni     |    Wenn ein Pop-up aufgeht, verschiebt sich die Liste von Events nach links.          |         3*45     |
-| 8.A     |   06.06.2023     |     Hitz      |        Wenn man auf die Checkbox Darkmode klickt werden die Sachen schwarz die weiss sind und die Sachen weiss die schwarz sind.  |     2*45          |
-| 9.A    |    06.0.2023    |      Koch     |       Bilder in die Pop-ups einfügen und sie so formatieren, dass sie eine gute Grösse haben.|    2*45          |
+| 8.A     |   06.06.2023     |     Koch     |        Wenn man auf die Checkbox Darkmode klickt werden die Sachen schwarz die weiss sind und die Sachen weiss die schwarz sind.  |     2*45          |
+| 9.A    |    06.0.2023    |      Hitz   |       Bilder in die Pop-ups einfügen und sie so formatieren, dass sie eine gute Grösse haben.|    2*45          |
 
 
 Total: 645 Minuten
