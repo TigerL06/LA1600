@@ -8,6 +8,7 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 |    09.05.23   | 0.0.1   | Heute haben wir in der Dokumentation gearbeitet (1-3) und haben den ersten Prototyp fertiggestellt. |
 |    16.05.23   | 0.1.1   |   Heute haben wir mit unseren Arbeitspacketen angefangen.                                                           |
 |   23.05.2023    | 1.0.0   |              Heute haben wir an den Arbeitspacketen weitergearbeitet.                                                |
+|   30.05.2023    | 1.1.0   |              Heute haben es Checkboxes erstellt mit denen man die Events sortieren kann, angefangen den Darkmode zu erstellen und passende Bilder zu finden.          |
 
 ## 1 Informieren
 
@@ -99,7 +100,9 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | 6.A  |  23.05.2023    |  Koch|        2*45    |    2*45           |
 | 6.B    |    23.05.2023    |     Hitz    |     2*45          |    2*45           |
 | 4.A    |    23.05.2023    |     Grigioni   |     2*45          |    2*45           |
-
+| 5.B  |  30.05.2023    | Hitz, Koch|        2*45    |    2*45           |
+| 8.A  |  30.05.2023    |  Koch|        2*45    |    2*45           |
+| 9.A  |  30.05.2023    |  Hitz|        2*45    |    2*45           |
 
 ## 5 Kontrollieren
 
