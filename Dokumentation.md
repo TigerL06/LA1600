@@ -23,7 +23,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | 1    |        muss         |   funktional   |Als ein User möchte ich eine Seite, damit ich überhaupt was machen kann. |
 | 2  |         muss        |    rand  |          Als ein Creator möchte ich, dass die Seite mit CSS gestaltet wird, damit die Seite übersichtlich aussieht.                         |
 | 3  |         muss        |    funktional  |          Als ein User möchte ich das die Seite Events anzeigt wie Konzerte Theateraufführungen, Ausstellungen und Festivals, damit ich weiss welche Events noch kommen |
-| 4  |         muss        |    funktional  |          Als ein User möchte ich, dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleichsehe.                         |
+| 4  |         kann     |    funktional  |          Als ein User möchte ich, dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleichsehe.                         |
 | 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerten, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann, die mich interessieren.  |
 | 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt, ein Pop-up aufgeht, dass die einzelnen Informationen zu diesem Event zeigen, damit ich mich besser über dieses Event informieren kann. |
 | 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups Platz haben. |
