@@ -212,47 +212,6 @@ li:hover .additional-info-box {
     background-color: #CCCCCC;
 }
 
-/* New CSS Rules */
-
-.image-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
-
-.festival-title {
-    cursor: pointer;
-}
-
-.festival-title:hover {
-    color: #555;
-}
-
-.show .text-box {
-    height: auto;
-}
-
-.show .additional-info-box {
-    margin-top: 10px;
-}
-
-.show .image-container {
-    height: auto;
-}
-
-.show .image-container img {
-    width: 100%;
-    height: auto;
-}
-
-
-
-
 /* event-image related stuff */
 
 
