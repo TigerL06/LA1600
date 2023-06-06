@@ -3,6 +3,12 @@ body {
     background-color: 333333;
 }
 
+body {
+    background-image: url("https://images.unsplash.com/photo-1495312040802-a929cd14a6ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -52,16 +58,16 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
     margin-bottom: 20px;
-
 }
 
 .text-box {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    height: 300px;
+    height: 400px;
     overflow: hidden;
     transition: height 0.2s ease;
+    position: relative;
 }
 
 .text-box h2 {
@@ -147,14 +153,12 @@ li:hover .additional-info-box {
     display: block;
 }
 
-
 .festival-Musik,
 .festival-Kultur,
 .festival-Film,
 .festival-Sonstiges {
     display: none;
 }
-
 
 #Musik-filter:checked~div ul li.festival-Musik {
     display: block;
@@ -206,4 +210,42 @@ li:hover .additional-info-box {
 
 .container {
     background-color: #CCCCCC;
+}
+
+/* New CSS Rules */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.festival-title {
+    cursor: pointer;
+}
+
+.festival-title:hover {
+    color: #555;
+}
+
+.show .text-box {
+    height: auto;
+}
+
+.show .additional-info-box {
+    margin-top: 10px;
+}
+
+.show .image-container {
+    height: auto;
+}
+
+.show .image-container img {
+    width: 100%;
+    height: auto;
 }
