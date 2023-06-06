@@ -104,6 +104,8 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | 5.B  |  30.05.2023    | Hitz, Koch|        2*45    |    2*45           |
 | 8.A  |  30.05.2023    |  Koch|        2*45    |    2*45           |
 | 9.A  |  30.05.2023    |  Hitz|        2*45    |    2*45           |
+| 8.A  |  06.06.2023    |  Koch, Hitz, Grigioni|        2*45    |    2*45           |
+| 9.A  |  06.06.2023    |  Hitz, Koch, Grigioni|        2*45    |    2*45           |
 
 ## 5 Kontrollieren
 
