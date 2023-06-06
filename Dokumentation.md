@@ -9,8 +9,8 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 |    16.05.23   | 0.1.1   |   Heute haben wir mit unseren Arbeitspacketen angefangen.                                                           |
 |   23.05.2023    | 1.0.0   |              Heute haben wir an den Arbeitspacketen weitergearbeitet.                                                |
 |   30.05.2023    | 1.1.0   |              Heute haben es Checkboxes erstellt mit denen man die Events sortieren kann, wir haben angefangen den Darkmode zu erstellen (wir sind aber noch nicht fertig) und passende Bilder für unsere Pop-ups zu finden (wir sind aber noch nicht fertig).          |
-|   30.05.2023    | 1.1.1  |              Heute haben wir eine Thema für unsere Präsentation bestimmt, denn Darkmode fertig gestellt und Bilder hinzugefügt.        |
-
+|   30.05.2023    | 1.1.1  |              Heute haben wir eine Thema für unsere Präsentation bestimmt, denn Darkmode fertig gestellt und Bilder hinzugefügt.      |
+|   06.06.2023    | 1.1.2  |              Heute haben wir den Darkmode fertig programmiert und die Event Bilder hinzugefügt.      |
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
