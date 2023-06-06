@@ -249,3 +249,23 @@ li:hover .additional-info-box {
     width: 100%;
     height: auto;
 }
+
+
+
+
+/* event-image related stuff */
+
+
+.event-image {
+    max-width: 100px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.text-left {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 120px);
+    /* 100px Bildbreite + 10px linker Abstand */
+}
