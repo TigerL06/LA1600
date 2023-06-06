@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: 333333;
 }
 
 .container {
@@ -52,6 +52,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
     margin-bottom: 20px;
+
 }
 
 .text-box {
@@ -171,32 +172,38 @@ li:hover .additional-info-box {
     display: block;
 }
 
-.text-box-darkmode {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+#Darkmode-filter:checked~.text-box {
+    background-color: #201F2F;
 }
 
-#Musik-filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+#Darkmode-filter:checked~.text-box ul li .additional-info-box {
+    background-color: gray;
 }
 
-#Kultur-filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+#Darkmode-filter:checked~.text-box ul li .festival-title {
+    color: white;
 }
 
-#Film-filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+#Darkmode-filter:checked~.text-box ul li .info-box {
+    background-color: #201F2F;
 }
 
-#Sonstiges-filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+#Darkmode-filter:checked~.text-box ul li .additional-info-box {
+    color: white;
+}
+
+#Darkmode-filter:checked~.text-box ul li {
+    color: white;
+}
+
+#Darkmode-filter:checked~.text-box h2 {
+    color: white;
+}
+
+#Darkmode-filter:checked~.text-box p {
+    color: white;
+}
+
+.container {
+    background-color: #CCCCCC;
 }
