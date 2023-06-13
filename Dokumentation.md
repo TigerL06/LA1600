@@ -10,6 +10,7 @@ Gruppe Pineapple: Koch, Grigioni, Hitz
 |   23.05.2023    | 1.0.0   |              Heute haben wir an den Arbeitspacketen weitergearbeitet.                                                |
 |   30.05.2023    | 1.1.0   |              Heute haben es Checkboxes erstellt mit denen man die Events sortieren kann, wir haben angefangen den Darkmode zu erstellen (wir sind aber noch nicht fertig) und passende Bilder für unsere Pop-ups zu finden (wir sind aber noch nicht fertig).          |
 |   06.06.2023   | 1.1.1  |              Heute haben wir eine Thema für unsere Präsentation bestimmt, denn Darkmode fertig gestellt und Bilder hinzugefügt.      |
+|   06.06.2023   | 1.1.2  |              Heute haben wir unsere Präsentation erstellt, die dazugehörige Seite und haben die Testfälle durchgeführt.      |
 
 ## 1 Informieren
 
@@ -27,7 +28,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 | 4  |         kann     |    funktional  |          Als ein User möchte ich, dass die Events nach dem Datum geordnet sind, damit ich die nächsten Events gleichsehe.                         |
 | 5  |         muss        |    funktional  |         Als User möchte ich die Events nach Konzerten, Theateraufführungen, Ausstellungen und Festivals sortieren können, damit ich die Events sehen kann, die mich interessieren.  |
 | 6 |         muss        |    funktional  | Als ein User möchte ich, dass wenn man auf das Event klickt, ein Pop-up aufgeht, dass die einzelnen Informationen zu diesem Event zeigen, damit ich mich besser über dieses Event informieren kann. |
-| 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Liste sich verkleinert, damit die Pop-ups Platz haben. |
+| 7 |         kann      |    funktional  |  Als ein Creator möchte ich, dass wenn ein Pop-up aufgeht, die Events nach unten bewegen, damit die Pop-ups Platz haben. |
 | 8 |         muss      |    funktional  |  Als ein Creator möchte ich, dass wenn es ein Darkmode gibt, damit ich die Seite selber gestallten kann. |
 | 9 |         muss      |    funktional  |  Als ein Creator möchte ich, dass es Bilder in den Pop-ups hat und sie die richtige Grösse haben, damit ich die Seite selber gestallten kann. |
 
@@ -44,7 +45,7 @@ Unser Projekt ist eine Webseite, die Kulturliebhaberinnen und -liebhabern einen 
 |5.1  |Die Homepage ist offen.              |Man linksklickt auf eine der 4 Kategorien oben.         |Es werden nur noch Events dieser Kategorie angezeigt.                 |
 |6.1  |Die Homepage ist offen.              |Über ein Event hovern        |Es geht ein Pop-up auf               |
 |7.1  |Das Pop-up ist offen.              |Über ein Event hovern      |Es werden mehr Informationen zum Event angezeigt                   |
-|7.2  |Die Homepage ist offen.              |Auf ein Event ist geklickt worden     |Die Liste verschiebt sich nach links und wird kleiner.             |
+|7.2  |Die Homepage ist offen.              |Auf ein Event ist geklickt worden     |Die Events verschieben sich.          |
 |8.1  |Die Homepage ist offen.              |Man Clickt auf die Darkmode-Checkbox    |Die Seite bekommt ein schwarzes Design           |
 |9.1  |Die Homepage ist offen.              |Man hovert über ein Event   | Ein Pop-up geht auf mit wichtigen Infos und einem Bild mit einer richtigen Grösse.          |
 
@@ -104,6 +105,7 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | 5.B  |  30.05.2023    | Hitz, Koch|        2*45    |    2*45           |
 | 8.A  |  30.05.2023    |  Koch|        2*45    |    2*45           |
 | 9.A  |  30.05.2023    |  Hitz|        2*45    |    2*45           |
+| 7.A  |  30.05.2023    |  Koch|        2*45    |    45          |
 | 8.A  |  06.06.2023    |  Koch, Hitz, Grigioni|        2*45    |    2*45           |
 | 9.A  |  06.06.2023    |  Hitz, Koch, Grigioni|        2*45    |    2*45           |
 
@@ -113,10 +115,17 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |   13.06.2023    |      okay    |     Koch   |
+| 3.1  |   13.06.2023    |      okay    |     Koch   |
+| 4.1  |   13.06.2023    |      okay    |     Koch   |
+| 5.1  |   13.06.2023    |      okay    |     Koch   |
+| 6.1  |   13.06.2023    |      okay    |     Koch   |
+| 7.1  |   13.06.2023    |      okay    |     Koch   |
+| 8.1  |   13.06.2023    |      okay    |     Koch   |
+| 9.1  |   13.06.2023    |      okay    |     Koch   |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fazit:
+Alle Testfälle haben geklappt, die Website läuft ohne Probleme.
 
 ### 5.2 Exploratives Testen
 
@@ -125,7 +134,7 @@ Wir haben entschieden, dass wir Pop-ups verwenden werden, um Informationen und B
 | I    |              |         |                   |                      |
 | ...  |              |         |                   |                      |
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+Bie unserem Exploratives Testen ist nichts spezieles vorgefalle. Es hat alles funktioniert.
 
 ## 6 Auswerten
 
