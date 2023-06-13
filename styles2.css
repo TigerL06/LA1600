@@ -1,0 +1,16 @@
+.event-image {
+    max-width: 100px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.text-left {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 120px);
+}
+
+div {
+    background-color: royalblue;
+}
