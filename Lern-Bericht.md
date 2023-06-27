@@ -19,7 +19,9 @@ Wir haben gelernt wie man die Funktion display flex in Css verwendet.
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Code: In dem Code sieht man welche funktionen wir verwendet haben. 
+Bild: Durch das Bild kann man erkennen, welchen einfluss der Code auf die Webseite hat.
+Text: In der Codebeschreibung wird alles einzeln detailierter erklärt.
 
 # Reflexion zum Arbeitsprozess
 
