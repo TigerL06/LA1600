@@ -87,6 +87,7 @@ Text: Im Text wird die Funktion Responsiv Flex erklärt.
 👍Alle waren motiviert ein gutes Projekt umzusetzen.
 
 
+
  👎Es gab Missverständnisse, welche unsere Effizient beinträchtigt haben und wir nicht so schnell vorankamen wie wir wollten. 
 
 
