@@ -24,11 +24,25 @@ Die Funktion Responsiv Flex (Flexbox) ist eine CSS-Technik, dazu da ist, um eine
 
 HTML Code:
 ```html
-<div class="container">
-<div class="flex-item">Element 1</div>
-<div class="flex-item">Element 2</div>
-<div class="flex-item">Element 3</div>
-</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Willkommensseite</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-item">Element 1</div>
+        <div class="flex-item">Element 2</div>
+        <div class="flex-item">Element 3</div>
+    </div>
+</body>
+
+
+</html>
 ```
 Css Code:
 ```css
