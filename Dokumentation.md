@@ -129,4 +129,4 @@ Bie unserem Exploratives Testen ist nichts spezieles vorgefalle. Es hat alles fu
 
 ## 6 Auswerten
 
-[Lernbericht.md](https://github.com/Pianonic/LA1300-Peanut/blob/main/Lernbericht.md)
+[Lernbericht.md](https://github.com/TigerL06/LA1600/blob/main/Lernbericht)
