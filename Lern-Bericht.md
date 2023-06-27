@@ -9,8 +9,7 @@ In diesem Projekt haben wir eine Webseite über Festivals in der Schweiz erstell
 Wir haben gelernt wie man die Funktion display flex in Css verwendet.
 
 ## Beschreibung
-
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+HTML Code:
 ```html
 <div class="container">
 <div class="flex-item">Element 1</div>
@@ -18,6 +17,7 @@ Wir haben gelernt wie man die Funktion display flex in Css verwendet.
 <div class="flex-item">Element 3</div>
 </div>
 ```
+Css Code:
 ```css
 .container {
   display: flex; /* Aktiviert Flexbox für den Container */
