@@ -54,8 +54,12 @@ Text: Im Text wird die Funktion Responsiv Flex erklärt.
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍Alle haben seriös ihren Aufträge erledigt. 
+👍Wir haben uns gut koordiniert und eine hohe Leistungsbereitschaft gezeigt. 
+👍Online-Besprechungsorte wurden immer eingehalten.
+👍Alle waren motiviert ein gutes Projekt umzusetzen.
 
-👎 und etwas, was nicht gut lief.
+ 👎Es gab Missverständnisse, welche unsere Effizient beinträchtigt haben und wir nicht so schnell vorankamen wie wir wollten. 
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: 
+Um die Kommunikation zu verbessern, müssen wir klare Anforderungen festlegen, regelmäßige Updates und Feedback geben und eine offene Kommunikation fördern. Dadurch können Missverständnisse vermieden und ein besseres gemeinsames Verständnis erreicht werden.
