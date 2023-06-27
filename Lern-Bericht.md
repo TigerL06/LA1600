@@ -21,6 +21,13 @@ Die Funktion Responsiv Flex (Flexbox) ist eine CSS-Technik, dazu da ist, um eine
 
 "flex": Mit dieser Funktion kann man Elementen den verbleibenden Platz in einem container zuweisen. Zum Beispiel sagt, "flex: 1;" sagt, dass der Platz gleichmässig auf alle Elemente im Container verteilt wird. "flex: 2;" sagt, dass das angesprochen Element doppelt so viel Platz wie die anderen Elemente einnimmt und "flex: 0.5;" macht gerade das umgekehrte, es weisst einem Element den halben Platz von dem noch verfügbaren Platz zu.
 
+Bild1:
+![image](https://github.com/TigerL06/LA1600/assets/110893121/8afa37f0-30e9-4bd8-8205-2faa9fe4aa8a)
+
+
+Bild2:
+![image](https://github.com/TigerL06/LA1600/assets/110893121/f9b22231-d7d5-4cd2-9180-d667a5e89525)
+
 
 HTML Code:
 ```html
@@ -62,8 +69,11 @@ Css Code:
 ## Verifikation
 
 Code HTML und CSS: In dem Code wird gezeigt wie die Funktion Responsiv Flex in einem Code verwendt wird. 
+
 Bild1: Im Bild sieht man wie die Webseite mit Responsiv Flex aussieht.
+
 Bild2: Im Bild sieht man wie die Webseite ohne Responsiv Flex aussieht.
+
 Text: Im Text wird die Funktion Responsiv Flex erklärt.
 
 # Reflexion zum Arbeitsprozess
