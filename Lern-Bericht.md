@@ -11,7 +11,26 @@ Wir haben gelernt wie man die Funktion display flex in Css verwendet.
 ## Beschreibung
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+```html
+<div class="container">
+<div class="flex-item">Element 1</div>
+<div class="flex-item">Element 2</div>
+<div class="flex-item">Element 3</div>
+</div>
+```
+```css
+.container {
+  display: flex; /* Aktiviert Flexbox für den Container */
+  flex-direction: row; /* Legt die Richtung der Elemente fest (horizontal) */
+  justify-content: center; /* Zentriert die Elemente horizontal */
+  align-items: center; /* Zentriert die Elemente vertikal */
+}
+```
 
+.flex-item {
+  flex: 1; /* Bestimmt das Verhältnis des Elements zum Rest der Elemente */
+  margin: 10px; /* Fügt einen Abstand um das Element hinzu */
+}
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
