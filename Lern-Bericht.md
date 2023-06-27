@@ -88,6 +88,8 @@ Text: Im Text wird die Funktion Responsiv Flex erklärt.
 
 
 
+ 
+ 
  👎Es gab Missverständnisse, welche unsere Effizient beinträchtigt haben und wir nicht so schnell vorankamen wie wir wollten. 
 
 
